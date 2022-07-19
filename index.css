@@ -1,0 +1,237 @@
+body {
+    font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* color: white; */
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.green-div {
+    background-color: rgb(5, 65, 19);
+    padding: 20px;
+    color: white;
+}
+
+.first-intro-message {
+    margin-bottom: 30px;
+}
+
+.try-input-box {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    border: solid 1px grey;
+    outline: none;
+}
+
+.try-input-box :focus {
+    outline: none;
+}
+
+.try-search-button {
+    background-color: rgb(44, 215, 118);
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.popular {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(247, 248, 252);
+}
+
+.popular img {
+    width: 55px;
+    height: 50px;
+}
+
+.professional-img img {
+    width: 70%;
+    margin: 10px;
+}
+
+.professional-img {
+    display: flex;
+    overflow: scroll;
+}
+
+section {
+    background: linear-gradient(rgb(184, 244, 226), white, rgb(184, 244, 226));
+    padding-bottom: 20px;
+}
+
+.tick {
+    font-weight: bold;
+}
+
+.market-place {
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marketdiv {
+    width: 40%;
+    text-align: center;
+}
+
+.marketplace-img {
+    width: 100px;
+}
+
+.fiverrLogoMakerDiv {
+    background-color: rgb(69, 107, 202);
+    color: white;
+
+}
+
+.fiverrlogoword {
+    padding: 20px 0px 0px 20px;
+    margin-bottom: -120px;
+}
+
+.fiverrlogoword button {
+    height: 40px;
+    width: 70%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: rgb(69, 107, 202);
+    font-weight: bolder;
+    position: relative;
+    z-index: 2;
+}
+
+.flexdiv {
+    display: flex;
+    /* background-color: blue; */
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+#img-Div {
+    /* background-color: orangered; */
+    width: 80vw;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+}
+
+#bigimg {
+    margin-right: 10px;
+    width: 260px;
+}
+
+.whitediv-img {
+    height: 80px;
+    display: flex;
+    /* background-color: aqua; */
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.whitediv-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#write {
+    margin-top: -20px;
+    margin-left: 12px;
+    background-color: white;
+}
+
+#write p {
+    margin-top: -12px;
+    color: grey;
+}
+
+.fatherdivgrey {
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fff {
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+}
+
+.gude-start {
+    width: 100%;
+}
+
+.getstarted-div {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(86, 25, 25);
+    color: white;
+}
+
+.find-talent {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.get-started {
+    background-color: rgb(41, 212, 155);
+    width: 150px;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.down-links{
+    border-bottom: solid 1px rgb(194, 192, 192);
+    padding: 5px;
+}
+.down-links div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: bold;
+}
+footer{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.fiverrword{
+    width: 20%;
+    align-self: center;
+
+}
